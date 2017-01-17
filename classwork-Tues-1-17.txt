@@ -1,0 +1,19 @@
+
+Useful shell short-cuts
+Ctrl+A "home" button for that line
+Ctrl+E "end" button for that line
+Ctrl+L clears screen
+Ctrl+C kill command
+Ctrl+U clear line before cursor
+Ctrl+K clear line after cursor
+Ctrl+D exit current shell
+Esc+F move cursor forward one word
+Esc+B move cursor backward one word
+
+badly named file.txt
+classwork -Tues-1-17.txt
+README.txt
+total 4
+-rw-rw-r-- 1 eeb177-student eeb177-student   0 Jan 17 10:16 badly named file.txt
+-rw-rw-r-- 1 eeb177-student eeb177-student 353 Jan 17 10:44 classwork -Tues-1-17.txt
+-rw-rw-r-- 1 eeb177-student eeb177-student   0 Jan 12 10:12 README.txt
