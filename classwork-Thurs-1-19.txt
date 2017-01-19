@@ -1,0 +1,20 @@
+  485  ls
+  486  cd CSB/unix/
+  487  ls
+  488  cd data/
+  489  ls
+  490  cd ..
+  491  gedit data/Marra2014_data.fasta 
+  492  wc -l data/Marra2014_data.fasta 
+  493  ls sandbox/
+  494  ls -a sandbox/
+  495  touch sandbox/toremove.txt
+  496  ls sandbox/
+  497  rm sandbox/toremove.txt 
+  498  ls sandbox/
+  499  >> ~/Desktop/eeb-177/class-assignments/classwork-Thurs-1-19.txt 
+  500  gedit ~/Desktop/eeb-177/class-assignments/classwork-Thurs-1-19.txt 
+  501  history >>  ~/Desktop/eeb-177/class-assignments/classwork-Thurs-1-19.txt
+  502  gedit ~/Desktop/eeb-177/class-assignments/classwork-Thurs-1-19.txt 
+  503  man history
+  504  history 20 > ~/Desktop/eeb-177/class-assignments/classwork-Thurs-1-19.txt
