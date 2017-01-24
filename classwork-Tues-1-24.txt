@@ -1,3 +1,53 @@
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Tues-1-17.txt
 /home/eeb177-student/Desktop/eeb-177/class-assignments/classwork-Thurs-1-19.txt
+  487  sudo apt-get install gedit-plugins
+  488  cd CSB/unix/sandbox/
+  489  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  490  grep falcon *.txt
+  491* grep falcon c 
+  492  grep Falcon *.txt
+  493  grep Falcon
+  494  grep -B 3 -A 3 -w Cebus cep-taxa.txt 
+  495  grep -i Falcon cep-taxa.txt 
+  496  grep -i -w Falcon cep-taxa.txt 
+  497  grep -i -w Ara cep-taxa.txt 
+  498  grep -n -i iguana cep-taxa.txt 
+  499  grep -v Ara cep-taxa.txt | wc -l
+  500  grep -v -c Ara cep-taxa.txt
+  501* grep -v -n
+  502  grep -v -n -i -w Ara cep-taxa.txt >> non-macaw.txt
+  503  find .* .
+  504  ls -a
+  505  find .*.* .
+  506  find ./*.* .
+  507  find .
+  508  find ../data/ | wc -l
+  509  find ../data/ -name "n30.txt"
+  510  find . .*
+  511  find .*
+  512  find ../data/ -name "n30.txt"
+  513  find /home/eeb177-student/CSB/unix/data/ -iname "*about*"
+  514  find /home/eeb177-student/Desktop/ -iname "*classwork*"
+  515  find /home/eeb177-student/Desktop/ -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
+  516  les ~/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
+  517  less ~/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
+  518  find /home/eeb177-student/Desktop/ -iname *classwork*
+  519  less ~/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt
+  520  find ../data -maxdepth 1 -name "*.txt" 
+  521  find ../data -maxdepth 1 -name "*.txt" | wc -l
+  522  find ../data 1 -name "*.txt" | wc -l
+  523  find ../data -name "*.txt"
+  524  ls -l
+  525  mkdir junk
+  526  ls
+  527  ls -;
+  528  ls -l
+  529  touch permissions.txt
+  530  ls -l
+  531  chmod u=rwx permissions.txt
+  532  ls -l
+  533  history 40
+  534  history 60
+  535  history 50
+  536  history 50 >> ~/Desktop/eeb-177/class-assignments/classwork-Tues-1-24.txt 
