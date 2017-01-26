@@ -1,0 +1,50 @@
+  937  ls -a
+  938  gedit .bash_profile
+  939  ls -a
+  940  gedit .profile 
+  941  $PATH
+  942  cd Desktop/eeb-177/lab-work/
+  943  ls
+  944  mkdir exercise-3
+  945  ls
+  946  git add exercise-3
+  947  git commit -m "made ex-3 folder"
+  948  git push
+  949  cd exercise-3
+  950  ls
+  951  jupyter python
+  952  jupyter notebook
+  953  sudo reboot
+  954  ls -a
+  955  gedit .bash_profile 
+  956  ls -a
+  957  rm .bash_profile 
+  958  cd Desktop/
+  959  dir.sh
+  960  $PATH
+  961  cd
+  962  ls -a
+  963  less .profile 
+  964  cd scripts/
+  965  gedit in_class_script.sh
+  966  ls -la
+  967  chmod u+x in_class_script.sh 
+  968  ls -la
+  969  cd ~/Desktop/eeb-177/lab-work/
+  970  ls
+  971  git status
+  972  date
+  973  in_class_script.sh 
+  974  cd ~/scripts/
+  975  git init
+  976  cd ~
+  977  cd Desktop/
+  978  cd eeb-177/class-assignments/
+  979  ipython
+  980  cd ~/Desktop/eeb-177/class-assignments/
+  981  ls
+  982  gedit classwork-Thurs-1-26.txt
+  983  history 30 >> classwork-Thurs-1-26.txt 
+  984  ls
+  985  less classwork-Thurs-1-26.txt 
+  986  history 50 >> classwork-Thurs-1-26.txt 
