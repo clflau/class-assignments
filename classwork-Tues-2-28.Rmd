@@ -1,0 +1,17 @@
+---
+title: "classwork-2-28"
+output: html_document
+---
+
+## Loading my first data file
+
+```{r cats}
+cats <- read.csv("data/feline_data.csv", as.is = TRUE)
+cats
+str(cats)
+cats$weight
+cats$weight + 2 # adds 2 to every element in weight
+typeof(cats$coat)
+dd <- as.character(cats$coat)
+typeof(dd)
+```
