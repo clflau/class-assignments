@@ -1,0 +1,31 @@
+---
+title: "classwork-Tues-3-7"
+output: html_document
+---
+
+Occurrence range
+```{r}
+library(paleotree)
+library(paleobioDB)
+
+
+data(graptPBDB)
+head(graptOccPBDB)
+
+occSpecies <- taxonSortPBDBocc(graptOccPBDB, rank = "species") # sort by species
+head(occSpecies)
+plotOccData(occSpecies, groupLabel = "Species")
+
+
+```
+
+Diversity through time
+```{r}
+grapTimeSpecies <- occData2timeList(occList = occSpecies)
+taxicDivDisc(grapTimeSpecies)
+
+pdf(file = "dtt.pdf")
+taxicDivDisc(grapTimeSpecies)
+dev.off()
+
+```
